@@ -1,6 +1,7 @@
 
 import Cookies from "js-cookie";
 
+
 // post job api
 
 export const post_job = async (formData) => {
