@@ -12,6 +12,10 @@ module.exports = {
 
   theme: {
     extend: {
+      colors: {
+        'custom-blue-dark': '#082f49',
+        'custom-blue-light': '#22d3ee',
+      },
       keyframes: {
         'fade-in-down': {
           '0%': {

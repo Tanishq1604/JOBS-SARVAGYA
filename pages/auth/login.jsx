@@ -53,8 +53,8 @@ export default function Login() {
 
   return (
     <>
-    <NavBar />
-    <div className='w-full h-screen bg-indigo-600'>
+    <NavBar/>
+    <div className='w-full h-screen bg-sky-50'>
       <div className="flex flex-col items-center  text-center justify-center px-6 py-8 mx-auto h-screen lg:py-0">
         <div className="w-full bg-white text-black rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 ">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
@@ -79,17 +79,17 @@ export default function Login() {
               <div className="flex items-center justify-between">
                 <div className="flex items-start">
                   <div className="flex items-center h-5">
-                    <input id="remember" aria-describedby="remember" type="checkbox" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-indigo-300   dark:focus:ring-indigo-600 " required="" />
+                    <input id="remember" aria-describedby="remember" type="checkbox" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300   dark:focus:ring-blue-600 " required="" />
                   </div>
                   <div className="ml-3 text-sm">
                     <label htmlFor="remember" className="text-gray-500 dark:text-gray-300">Remember me</label>
                   </div>
                 </div>
-                <Link href="/auth/forget-password" className="text-sm font-medium text-indigo-600 hover:underline ">Forgot password?</Link>
+                <Link href="/auth/forget-password" className="text-sm font-medium text-blue-700 hover:underline ">Forgot password?</Link>
               </div>
-              <button type="submit" className="w-full text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800">Sign in</button>
+              <button type="submit" className="w-full text-white bg-blue-700 hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-700 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Sign in</button>
               <p className="text-sm font-light ">
-                Don’t have an account yet? <Link href="/auth/register" className="font-medium text-indigo-600 hover:underline ">Sign up</Link>
+                Don’t have an account yet? <Link href="/auth/register" className="font-medium text-blue-700 hover:underline ">Sign up</Link>
               </p>
             </form>
           </div>
