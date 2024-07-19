@@ -47,7 +47,7 @@ export default function Intro() {
             </div>
           </div>
         </div>
-        <div className='w-3/6 my-2 h-full bg-sky-50 hidden items-center justify-center flex-col p-20 lg:flex'>
+        <div className='w-3/6 my-2 h-full hidden items-center justify-center flex-col p-20 lg:flex'>
           <Image width={600} height={700} src="/intro.png" alt="no-image-found" />
         </div>
       </div>
